@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Kiwi (3.0.0)
+  - WFLib (0.1.0):
+    - AFNetworking (~> 2.3)
+
+DEPENDENCIES:
+  - Kiwi
+  - WFLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Kiwi
+
+EXTERNAL SOURCES:
+  WFLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  WFLib: 3f2afe6d6907d1bd6fc4921bb0472bda45450321
+
+PODFILE CHECKSUM: c56d0acef103f5192ef2bf70ca9a9fa84f6ba4e2
+
+COCOAPODS: 1.5.3

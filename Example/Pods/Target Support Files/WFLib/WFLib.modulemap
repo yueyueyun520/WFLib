@@ -1,0 +1,6 @@
+framework module WFLib {
+  umbrella header "WFLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

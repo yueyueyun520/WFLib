@@ -2,11 +2,13 @@
 //  WFViewController.m
 //  WFLib
 //
-//  Created by 872255209@qq.com on 04/25/2019.
-//  Copyright (c) 2019 872255209@qq.com. All rights reserved.
+//  Created by addy on 04/25/2019.
+//  Copyright (c) 2019 addy. All rights reserved.
 //
 
 #import "WFViewController.h"
+#import <WFLib/WFPickerController.h>
+
 
 @interface WFViewController ()
 
@@ -17,7 +19,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+     [self goFirstView];
+    
+}
+- (void)goFirstView {
+    WFPickerController *pick = [[WFPickerController alloc]initWithDefaultViewController];
+    [self.view addSubview:pick.view];
+    [self addChildViewController:pick];
+    [pick didMoveToParentViewController:self];
+    [self.view sendSubviewToBack:pick.view];
+    [pick gotoFirstView];
 }
 
 - (void)didReceiveMemoryWarning

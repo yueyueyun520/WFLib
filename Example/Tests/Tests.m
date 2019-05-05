@@ -2,8 +2,8 @@
 //  WFLibTests.m
 //  WFLibTests
 //
-//  Created by 872255209@qq.com on 04/25/2019.
-//  Copyright (c) 2019 872255209@qq.com. All rights reserved.
+//  Created by addy on 04/25/2019.
+//  Copyright (c) 2019 addy. All rights reserved.
 //
 
 // https://github.com/kiwi-bdd/Kiwi

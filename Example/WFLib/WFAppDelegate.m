@@ -2,19 +2,23 @@
 //  WFAppDelegate.m
 //  WFLib
 //
-//  Created by 872255209@qq.com on 04/25/2019.
-//  Copyright (c) 2019 872255209@qq.com. All rights reserved.
+//  Created by addy on 04/25/2019.
+//  Copyright (c) 2019 addy. All rights reserved.
 //
 
 #import "WFAppDelegate.h"
+
+
 
 @implementation WFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+   
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
