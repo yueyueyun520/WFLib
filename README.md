@@ -22,7 +22,7 @@ pod 'WFLib'
 
 ## Author
 
-872255209@qq.com, 872255209@qq.com
+Addy, weiyeuyungg@gmail.com
 
 ## License
 
